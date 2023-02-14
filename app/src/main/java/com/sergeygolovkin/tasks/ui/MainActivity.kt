@@ -13,6 +13,9 @@ import com.sergeygolovkin.tasks.R
 import com.sergeygolovkin.tasks.databinding.ActivityMainBinding
 import com.sergeygolovkin.tasks.ui.tasklist.TaskListFragment
 
+/**
+ * Активити приложения Tasks. Предполагается подход Single Activity Application
+ */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

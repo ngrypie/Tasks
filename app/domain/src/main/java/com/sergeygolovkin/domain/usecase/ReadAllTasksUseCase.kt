@@ -16,5 +16,8 @@ class ReadAllTasksUseCase @Inject constructor(private val repository: TaskListRe
         return repository.getList(TaskFilter(query = params.query, completed = params.completed))
     }
 
+    /**
+     * Фильтр для отбора данных по указанным признакам
+     */
     data class Filter(val query: String? = null, val completed: Boolean)
 }

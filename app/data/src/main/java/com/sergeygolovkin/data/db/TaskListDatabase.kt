@@ -5,6 +5,9 @@ import androidx.room.RoomDatabase
 
 const val DATABASE_NAME = "task_list_database"
 
+/**
+ * Room БД
+ */
 @Database(entities = [TaskEntity::class], version = 1)
 internal abstract class TaskListDatabase : RoomDatabase() {
 

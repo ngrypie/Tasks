@@ -22,7 +22,7 @@ internal class LocalDatasource(private val database: TaskListDatabase) : ListDat
     }
 
     override suspend fun read(entityId: Int): TaskEntity {
-        TODO()
+        TODO("Не требуется по условию задания")
     }
 
     override suspend fun delete(entity: TaskEntity) {

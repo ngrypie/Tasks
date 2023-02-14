@@ -6,7 +6,7 @@ import androidx.sqlite.db.SupportSQLiteQuery
 import com.sergeygolovkin.domain.entity.TaskFilter
 
 /**
- * Интерфейс, описывающий взаимодействие с Room
+ * Интерфейс доступа к БД Room
  */
 @Dao
 internal interface TasksDao {

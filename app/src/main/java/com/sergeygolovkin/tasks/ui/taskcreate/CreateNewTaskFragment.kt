@@ -15,6 +15,10 @@ import com.sergeygolovkin.tasks.ui.taskcreate.di.DaggerCreateNewTaskComponent
 import com.sergeygolovkin.tasks.util.asComponentHolder
 import kotlinx.coroutines.flow.collect
 
+/**
+ * Фрагмент создания новой задачи.
+ * Нажатие на кнопку закрывает экран и добавляет новую запись в БД, если поле ввода не пусто.
+ */
 internal class CreateNewTaskFragment: ViewModelAwareBindableFragment<CreateNewTaskViewModel, FragmentCreateNewTaskBinding>() {
 
     override fun onAttach(context: Context) {

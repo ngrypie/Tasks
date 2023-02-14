@@ -5,6 +5,9 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.sergeygolovkin.data.db.TaskEntity.Companion.TABLE_NAME
 
+/**
+ * Room сущность задачи
+ */
 @Entity(tableName = TABLE_NAME)
 internal data class TaskEntity(
     @PrimaryKey @ColumnInfo("task_id") val id: Int,
