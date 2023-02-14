@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="action_settings">New task</string>
+    <string name="what_would_we_do_today">What would we do today?</string>
+    <string name="new_task_hint">Watch The Last Of Us, episode 5</string>
+    <string name="confirm">Confirm</string>
+</resources>
